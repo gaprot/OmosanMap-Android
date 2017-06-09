@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="element_spacing_x0.5">4dp</dimen>
+    <dimen name="element_spacing_x1">8dp</dimen>
+    <dimen name="element_spacing_x1.5">12dp</dimen>
+    <dimen name="element_spacing_x2">16dp</dimen>
+    <dimen name="element_spacing_x2.5">20dp</dimen>
+    <dimen name="element_spacing_x3">24dp</dimen>
+    <dimen name="element_spacing_x4">32dp</dimen>
+    <dimen name="element_spacing_x5">40dp</dimen>
+    <dimen name="element_spacing_x6">48dp</dimen>
+    <dimen name="element_spacing_x7">56dp</dimen>
+    <dimen name="element_spacing_x9">72dp</dimen>
+
+    <dimen name="icon_size">48dp</dimen>
+
+    <!-- Minimum -->
+    <dimen name="touchable_min_width">48dp</dimen>
+    <dimen name="touchable_min_height">48dp</dimen>
+    <dimen name="list_item_min_height">48dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_size_headline">24sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_subhead">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+
+    <!-- Bottom sheet -->
+    <dimen name="peek_height">192dp</dimen>
+
+    <!-- Shadow -->
+    <dimen name="shadow_height">4dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

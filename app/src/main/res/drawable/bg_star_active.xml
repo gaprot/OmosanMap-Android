@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_star_yellow_700_36dp" android:bottom="@dimen/element_spacing_x0.5" android:left="@dimen/element_spacing_x0.5" android:right="@dimen/element_spacing_x0.5" android:top="@dimen/element_spacing_x0.5" />
+</selector>

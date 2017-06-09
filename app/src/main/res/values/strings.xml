@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">OmosanMaps</string>
+
+    <!-- Dialog -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">@android:string/cancel</string>
+
+    <!-- PlaceDetailFragment -->
+    <string name="detail_no_description">We have no comment yet…</string>
+    <string name="detail_no_address">Unknown</string>
+    <string name="detail_hint_save">Save</string>
+    <string name="detail_hint_direction">Direction</string>
+
+    <string name="travel_time_with_min">%1$d min</string>
+
+    <!-- Filter -->
+    <string name="filter_hint_folder_name">Genre: </string>
+    <string name="filter_hint_distance">Within: </string>
+    <string name="filter_hint_starred">Only saved</string>
+
+    <string name="filter_label">Filter</string>
+    <string name="filter_folder">Genre: %1$s</string>
+    <string name="filter_distance">Within %1$d meters</string>
+    <string name="action_search">Search</string>
+
+    <string name="blank" translatable="false">------</string>
+
+    <!-- FolderList -->
+    <string name="folder_list_try_again">Try again</string>
+    <string name="folder_list_no_folder">We have nothing to show!</string>
+
+    <!-- FolderActivity Menu -->
+    <string name="action_map">Browse map</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_starred">Starred</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- PlacemarkList -->
+    <string name="action_sort">Sort</string>
+    <string name="sort_dialog_message">Sort by distance ASC?</string>
+    <string name="sort_dialog_positive">SORT</string>
+    <string name="sort_dialog_negative">@string/dialog_cancel</string>
+
+    <!-- Preference -->
+
+    <string name="pref_walking_speed_with_unit">%1$d meter/min</string>
+
+    <string name="pref_speed_title">Walking speed</string>
+    <string name="pref_kmz_url_title">KMZ file URL</string>
+    <string name="pref_origin_title">Origin coordinate</string>
+
+    <string name="pref_kmz_url_hint">URL</string>
+    <string name="pref_origin_latitude_hint">Latitude</string>
+    <string name="pref_origin_longitude_hint">Longitude</string>
+
+    <string name="pref_pretty_key_speed">Walking speed (Metric minute speed)</string>
+    <string name="pref_pretty_key_origin">Origin coordinate</string>
+    <string name="pref_pretty_key_kmz_url">KMZ file URL</string>
+    <string name="hint_url">https://</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="pref_speed_list_titles">
+        <item>Slow (60 m/min)</item>
+        <item>Normal (80 m/min)</item>
+        <item>Brisk (100 m/min)</item>
+    </string-array>
+
+    <integer-array name="pref_speed_list_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+    </integer-array>
+
+    <integer-array name="pref_travel_time_array">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/element_spacing_x3">
+
+    <RelativeLayout
+        android:id="@+id/folder_name_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/folder_name_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextTitle"
+            android:text="@string/filter_hint_folder_name" />
+
+        <Spinner
+            android:id="@+id/folder_name_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/folder_name_hint"
+            android:layout_toRightOf="@id/folder_name_hint"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/element_spacing_x1"
+            android:layout_marginLeft="@dimen/element_spacing_x1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/distance_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/folder_name_container">
+
+        <TextView
+            android:id="@+id/distance_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextTitle"
+            android:text="@string/filter_hint_distance" />
+
+        <Spinner
+            android:id="@+id/distance_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/distance_hint"
+            android:layout_toRightOf="@id/distance_hint"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/element_spacing_x1"
+            android:layout_marginLeft="@dimen/element_spacing_x1" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/starred_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distance_container"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/filter_hint_starred"
+        android:textAppearance="@style/TextTitle" />
+
+</RelativeLayout>

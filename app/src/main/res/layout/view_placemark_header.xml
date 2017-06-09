@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/distance_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/element_spacing_x0.5"
+        android:layout_marginLeft="@dimen/element_spacing_x0.5">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/walk_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_directions_walk_white_24dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/travel_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/walk_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/element_spacing_x0.5"
+            android:textAppearance="@style/TextPlace.Sub"
+            tools:text="5 mins" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/distance_container"
+        android:layout_toLeftOf="@id/distance_container"
+        android:textAppearance="@style/TextPlace.Title"
+        tools:text="TACHIKICHI KITCHEN" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="@dimen/element_spacing_x0.5"
+        android:textAppearance="@style/TextPlace.Sub"
+        tools:text="Chinese" />
+
+</merge>

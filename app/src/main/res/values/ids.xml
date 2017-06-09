@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="folder_list_empty_text" type="id" />
+    <item name="map_fragment_container" type="id" />
+    <item name="bottom_sheet_container" type="id" />
+    <item name="bottom_sheet_layout" type="id" />
+
+    <!-- PlaceDetailFragmentUI -->
+    <item name="detail_description" type="id" />
+    <item name="detail_location_icon" type="id" />
+
+    <item name="bottom_actionbar_shadow" type="id" />
+
+    <item name="home" type="id">@android:id/home</item>
+</resources>
